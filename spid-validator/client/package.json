@@ -67,7 +67,8 @@
     "start-prod": "node ../server/spid-validator.js",
     "start-dev": "webpack-dev-server --progress --color --inline --env.dev",
     "build": "webpack -p --progress --env.prod",
-    "clean": "rimraf ./build"
+    "clean": "rimraf ./build",
+    "start-test": "cd .. && node server/spid-validator.js"
   },
   "engines": {
     "node": ">= 6.12.3",
